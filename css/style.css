@@ -1,0 +1,54 @@
+html,body{
+    height:100%;
+    width:100%;
+    background-color:green;
+}
+section{
+    height:13rem;
+    width:39rem;
+    display:inline;
+    background-color:red;
+    display:flex;
+    margin:1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+div{
+    height:9rem;
+    width:9rem;
+    background-color:blue;
+    display:flex;
+    flex-direction:column;
+    
+    border:1rem solid black;
+    margin:1rem;
+    
+    
+}
+aside{
+    height:2em;
+    width:2em;
+    background-color:black;
+    
+    color:white;
+    text-align:center;
+    
+}
+#top{
+    justify-content:flex-start;
+}
+#middle{
+    justify-content:center;
+}
+#bottom{
+    justify-content:flex-end;
+}
+#start{
+   align-self:flex-start; 
+}
+#center{
+    align-self:center;
+}
+#end{
+    align-self:flex-end;
+}
