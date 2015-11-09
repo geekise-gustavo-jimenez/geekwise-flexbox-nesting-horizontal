@@ -19,12 +19,12 @@ div{
     background-color:blue;
     display:flex;
     flex-direction:column;
-    
-    border:1rem solid black;
+
     margin:1rem;
     
     
 }
+
 aside{
     height:2em;
     width:2em;
@@ -34,6 +34,7 @@ aside{
     text-align:center;
     
 }
+
 #top{
     justify-content:flex-start;
 }
